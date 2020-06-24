@@ -10,6 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     font-style: sans-serid;
+    text-align: center;
 }
 .container{
     width: 100%;
@@ -71,3 +72,4 @@ body{
     border-radius: 4px;
     transition: all 400ms ease; 
 }
+
