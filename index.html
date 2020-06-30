@@ -30,23 +30,27 @@
 
         </style>
         
+      <script>
+          var dialga = new Audio();
+          dialga.src="dialga.mp3";
+      </script>
+
         </head>
     <body>
 
         <h1>La vida de un poeta</h1>
 
-        <embed src="Bad.mp3" autostarty='true' loop="true" volume="80" width="0" height="0">
+        
 
         <div id="menu">
             <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="acerca_de.html">Acerca de</a></li>
-                <li><a href="contactos.html">Contactos</a></li>
+                <li><a href="index.html" onmousedown="dialga.play()">Inicio</a></li>
+                <li><a href="acerca_de.html" onmousedown="dialga.play()">Acerca de</a></li>
+                <li><a href="contactos.html" onmousedown="dialga.play()">Contactos</a></li>
                 
             </ul>
         </div>
 <div><p>En los inicios del sigloXXI</p></div>
         
-
     </body>
 </html>
